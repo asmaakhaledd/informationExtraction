@@ -19,9 +19,9 @@ from kor import extract_from_documents, from_pydantic, create_extraction_chain
 from pydantic import BaseModel, validator, Field
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] =
 
-# openai.api_key = "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"
+
 
 llm = ChatOpenAI(
     model_name="gpt-3.5-turbo",
